@@ -1,0 +1,96 @@
+.boxprofile {
+  max-width: 300px;
+  margin: 20px auto;
+}
+.profile {
+  width: 150px;
+  height: 200px;
+  margin: 20px auto;
+  background-image: url('/public/assets/profileWanderRosa.jpg');
+  background-size: cover;
+  background-position:15px -20px;
+  background-repeat: no-repeat;
+  background-color: #15134b; 
+  border: 2px solid #c53497dd;
+  border-radius: 80px;
+}
+/* .boxcarrossel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+} */
+.carrossel {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 40px auto;
+  transform-style: preserve-3d;
+  animation: spinner 20s linear infinite;
+}
+.carrossel:hover {
+  animation-play-state: paused;
+}
+.carrossel div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 90deg)) translateZ(150px);
+  background-color: #bab8ec;
+
+}
+.carrossel .card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex start;
+  align-items: center;
+  object-fit: cover;
+}
+.card li{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    list-style: circle;
+}
+.card p{
+  font-size: 14px;
+  text-align: justify;
+}
+.card h2{
+  margin:20px 0;
+  text-transform: uppercase;
+}
+.card .links{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+progress{
+  height: 30px;
+}
+.card a{
+  padding-bottom: 10px;
+}
+
+@keyframes spinner {
+  0% {
+    transform: perspective(1500px) rotatey(360deg);
+  }
+  100% {
+    transform: perspective(1500px) rotatey(0deg);
+  }
+}
