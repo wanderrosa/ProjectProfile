@@ -1,0 +1,59 @@
+
+.boxprojetos {
+  width: 100%;
+  height: 100%;
+}
+.boxcards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.cardprojetos h3 {
+  margin: 20px 0;
+  font-size: 22px;
+}
+.boxcards img {
+  width: 100%;
+  height: 100%;
+}
+.boxcards a{
+  width: 400px;
+  height: 300px;
+}
+
+.cardprojetos {
+  width: calc(100% / 2);
+  margin: 10px auto;  
+}
+.cardprojetos p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+}
+.boxcards img:hover {
+  border: 2px solid red;
+}
+@media screen and (max-width: 440px) {
+  .boxcards {
+    flex-flow: column nowrap;
+  }
+  .cardprojetos p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .cardprojetos {
+    width: calc(100% - 40px);
+    margin-bottom: 40px;  
+  }
+  .boxcards a{
+    width: 350px;
+    height: 250px;
+  }
+}
+@media (min-width: 441px) and (max-width: 800px) {
+  .boxcards {
+    flex-flow: column nowrap;
+  }
+}
