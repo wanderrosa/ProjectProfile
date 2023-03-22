@@ -2,10 +2,9 @@ import { Topo } from "../../components/Top";
 import Footer from "../../components/Footer";
 import "./principal.css";
 
-
 export default function Principal() {
   return (
-    <section className="limite ">
+    <section className="limite">
       <main>
         <Topo />
         <section className="boxprofile">
@@ -14,7 +13,7 @@ export default function Principal() {
           <p>Desenvolvedor Front-End Web</p>
           <p>Graduado em Analise e Desenvolvimento de Sistemas</p>
         </section>
-        <section className="boxcarrossel">
+
           <div className="carrossel">
             <div className="boxcardsprincipal" style={{ "--float": "1" }}>
               <section className="card">
@@ -84,7 +83,7 @@ export default function Principal() {
               </section>
             </div>
           </div>
-        </section>
+
         <Footer />
       </main>
     </section>
