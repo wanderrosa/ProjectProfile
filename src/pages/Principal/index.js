@@ -9,7 +9,7 @@ export default function Principal() {
         <Topo />
         <section className="boxprofile">
           <div className="profile"></div>
-          <h1>Wander Junio Carvalho Rosa</h1>
+          <h1 className="titulo">Wander Junio Carvalho Rosa</h1>
           <p>Desenvolvedor Front-End Web</p>
           <p>Graduado em Analise e Desenvolvimento de Sistemas</p>
         </section>

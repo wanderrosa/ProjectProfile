@@ -11,6 +11,9 @@
   display: flex;
   align-items: center;
 }
+.topo li{
+  list-style: none;
+}
 
 .link {
   text-decoration: none;
@@ -21,6 +24,7 @@
   color: #faf6f6;
   background-color: none;
 }
+
 .trasso1,
 .trasso2,
 .trasso3 {
@@ -34,6 +38,7 @@ button {
   margin: 0 20px;
   border-radius: 5px;
 }
+
 @media screen and (max-width: 440px) {
   button {
     visibility: visible;

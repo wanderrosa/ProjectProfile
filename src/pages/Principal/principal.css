@@ -15,6 +15,9 @@
   border: 2px solid #c53497dd;
   border-radius: 80px;
 }
+.titulo{
+  font-size: 22px;
+}
 
 .carrossel {
   position: relative;
@@ -54,7 +57,7 @@
   justify-content: flex start;
   align-items: center;
   object-fit: cover;
-  background-color: #bab8ec;
+  background-color: #7bacf7;
 }
 .card li{
     margin-bottom: 5px;
@@ -117,6 +120,7 @@ progress{
     text-transform: uppercase;
     list-style: circle;
 }
+
 .card p{
   font-size: 12px;
   text-align: justify;
