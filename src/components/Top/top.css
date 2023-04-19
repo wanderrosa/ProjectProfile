@@ -1,30 +1,27 @@
 .topo {
   width: 100%;
   height: 60px;
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #15134b;
 }
-.topo ul {
+.topo nav{
+  width: 100%;
+  height: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
-}
-.topo li{
-  list-style: none;
-}
 
+}
 .link {
   text-decoration: none;
-  font-size: 20px;
-  padding: 2px;
-  margin: 0 15px;
+  font-size: 22px;
+  color: black;
+  margin: 0 40px;
   border-radius: 5px;
-  color: #faf6f6;
-  background-color: none;
-}
 
+}
+/* MenuMobile
 .trasso1,
 .trasso2,
 .trasso3 {
@@ -51,7 +48,7 @@ button {
     justify-content: flex-start;
     align-items: flex-start;
     border-radius: 0 0 80px 0;
-    background-color: #15134b; 
+    background-color: #15134b;
     position: absolute;
   }
   #esconde {
@@ -69,4 +66,4 @@ button {
     justify-content: flex-start;
     align-items: center;
   }
-}
+} */

@@ -1,4 +1,4 @@
-// import Principal from './pages/Principal';
+
 import Rotas from './rotas';
 import './App.css';
 

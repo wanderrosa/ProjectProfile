@@ -1,148 +1,72 @@
-
-.boxprofile {
-  max-width: 300px;
-  margin: 20px auto;
+.boxprofile,
+.boximgprofile {
+  width: calc(100% / 2);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 590px;
 }
-.profile {
-  width: 150px;
-  height: 200px;
-  margin: 20px auto;
-  background-image: url('/public/assets/profileWanderRosa.jpg');
-  background-size: cover;
-  background-position:15px -20px;
-  background-repeat: no-repeat;
-  background-color: #15134b; 
-  border: 2px solid #c53497dd;
-  border-radius: 80px;
+.boxprofile h1 {
+  font-size: 60px;
+  margin: 0 30px;
+  text-transform: uppercase;
 }
-.titulo{
+.boxprofile p {
+  line-height: 26px;
   font-size: 22px;
-}
-
-.carrossel {
+  text-align: justify;
   position: relative;
-  width: 280px;
-  height:280px;
-  margin: 40px auto;
-  transform-style: preserve-3d;
-  animation: spinner 30s linear infinite;
+  top: 200px;
+  right: -40px;
 }
-.carrossel:hover {
-  animation-play-state:paused;
-
+.boximgprofile {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
-
-.boxcardsprincipal{
-  position: absolute;
-  top: 0;
-  left: 0;
+.imgprofile {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  border: 5px solid rgb(148, 2, 116);
+  background: url("/public/assets/profileWanderRosa.jpg") 20px -93px;
+  background-size: cover;
+  border-radius: 300px;
+}
+.boxicons {
+  display: flex;
   width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  transform-origin: center;
-  transform-style: preserve-3d;
-  transform: rotateY(calc(var(--float) * 90deg)) translateZ(139px);
+  flex-flow: column nowrap;
+}
+.boxicons img {
+  position: relative;
+  top: 0;
+  left: 180px;
+  margin: 5px 0;
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
   
 }
-.carrossel .card {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  padding: 15px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex start;
-  align-items: center;
-  object-fit: cover;
-  background-color: #7bacf7;
-}
-.card li{
-    margin-bottom: 5px;
-    text-transform: uppercase;
-    list-style: circle;
-}
-.links a{
-  padding: 10px 0;
-}
 
-.card p{
-  font-size: 14px;
-  text-align: justify;
-}
-.card h2{
-  margin:20px 0;
-  text-transform: uppercase;
-}
-.card .links{
-  width: 100%;
-  height: 100%;
+/* .boximgprofile {
+  width: calc(100% / 2);
+  height: 560px;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column;
   justify-content: flex-start;
   align-items: center;
-}
-progress{
-  height: 30px;
-}
-.card a{
-  padding-bottom: 10px;
-}
-.light{
-  background-color: rgb(215, 245, 248);
-  color: #000000;
-}
-.dark{
-  background-color: rgb(48, 53, 53);
-  color: #c2219a;
-}
 
-@keyframes spinner {
-  0% {
-    transform: perspective(1500px) rotatey(360deg);
-  }
-  100% {
-    transform: perspective(1500px) rotatey(0deg);
-  }
-}
-@media screen and (max-width: 440px) {
-  .carrossel{
-    width: 230px;
-    height: 230px;
-    
-  }
-  .boxcardsprincipal{transform: rotateY(calc(var(--float) * 90deg)) translateZ(109px);}
-  .card li{
-    font-size: 14px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    list-style: circle;
-}
+} */
 
-.card p{
-  font-size: 12px;
-  text-align: justify;
-}
-.card h2{
-  font-size: 18px;
-  margin: 5px 0 10px 0;
-  text-transform: uppercase;
-}
-.card .links{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: center;
-}
-progress{
-  height: 20px;
-}
-.card a{
-  padding-bottom: 5px;
-}
+/* .profile {
+  width: 200px;
+  height: 150px;
+  border-radius: 50px;
+  background-image: url('/public/assets/profileWanderRosa.jpg');
+  background-size: cover;
+  background-position: 20px -80px;
+  background-color: #15134b; 
+  border: 2px solid #c53497dd;
 
-}
+} */
