@@ -1,11 +1,11 @@
 import "./cards.css";
-const Card = (props) => {
+const Card = (prop) => {
   return (
     <div className="boxcard">
       <div className="navbar">
-        <h2>{props.title}</h2>
+        <h2>{prop.titles}</h2>
       </div>
-      {props.children}
+      {prop.text}
     </div>
   );
 };

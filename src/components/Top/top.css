@@ -4,6 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position:fixed;
+  background-color: rgba(203, 234, 250);
+  top: 0;
+ 
 }
 .topo nav{
   width: 100%;

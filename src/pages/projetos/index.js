@@ -2,8 +2,11 @@ import CardProjetos from "../../components/CardProjetos";
 import "./projetos.css";
 
 const Projetos = () => {
-  return (
-    <section>
+  return (  
+    <section id='Projetos'>
+      <h2>
+        Meus projetos
+      </h2>
       <CardProjetos
         title="Sorveteria"
         text=" Um belo layout oferecido pela DevMedia, abordando conceitos de SPA em

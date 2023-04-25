@@ -11,20 +11,20 @@ export function Topo() {
     }
   };
   return (
-    <section className="limite">
+    <section id='Home' className="limite">
       <div className="topo">
         <nav>
-          <Link className="link" to={"/"}>
+          <a href="#Home" className="link">
             Home
-          </Link>
-          <Link className="link" to={"/Projetos"}>
+          </a>
+          <a href='#Habilidade'className="link" a>
+            Habilidades
+          </a>
+          <a href="#Projetos" className="link" id="projetos">
           Meus Projetos
-          </Link>
+          </a>
         </nav>
         <button onClick={muda}>
-          <div className="trasso1"></div>
-          <div className="trasso2"></div>
-          <div className="trasso3"></div>
         </button>
       </div>
     </section>

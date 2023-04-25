@@ -1,11 +1,12 @@
 
-import Rotas from './rotas';
+
 import './App.css';
+import Principal from './pages/Principal';
 
 const App =() =>(
    
 <div className="App">
-    <Rotas/>
+    <Principal/>
     </div>
 )
 export default App;

@@ -1,28 +1,41 @@
+.backgroundmain{
+  background-color: rgba(203, 234, 250, 0.973);
+  padding-top: 100px;
+}
+
 .boxprofile,
 .boximgprofile {
-  width: calc(100% / 2);
   display: flex;
   justify-content: center;
   align-items: flex-start;
   height: 590px;
 }
+.boxprofile{
+  min-width: 800px;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .boxprofile h1 {
+  min-width: 300px;
+  max-width: 300px;
   font-size: 60px;
-  margin: 0 30px;
   text-transform: uppercase;
 }
 .boxprofile p {
+  min-width: 300px;
+  max-width: 300px;
   line-height: 26px;
   font-size: 22px;
   text-align: justify;
-  position: relative;
-  top: 200px;
-  right: -40px;
 }
 .boximgprofile {
+  width: 100%;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 .imgprofile {
   width: 300px;
@@ -33,40 +46,43 @@
   background-size: cover;
   border-radius: 300px;
 }
+/* icones */
 .boxicons {
   display: flex;
-  width: 100%;
+  width: 60px;
+  height: 250px;
   flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 40px;
 }
 .boxicons img {
-  position: relative;
-  top: 0;
-  left: 180px;
-  margin: 5px 0;
-  width: 50px;
+  width: 40px;
   height: 40px;
-  border-radius: 5px;
-  
+  border-radius: 10px;
+}
+.boxicons a {
+  margin-bottom: 15px;
 }
 
-/* .boximgprofile {
-  width: calc(100% / 2);
-  height: 560px;
-  display: flex;
-  flex-flow: column;
-  justify-content: flex-start;
-  align-items: center;
+.branco {
+  background-color: rgba(255, 255, 255, 0.719);
+  color: rgba(201, 4, 4, 0.829);
+}
+.azul {
+  background-color: rgba(5, 162, 253, 0.719);
+  color: rgba(253, 253, 253, 0.692);
+}
+.verde {
+  background-color: rgba(17, 248, 67, 0.781);
+  color: rgba(253, 253, 253, 0.692);
+}
+.cinza {
+  background-color: rgba(241, 112, 6, 0.87);
+  color: rgba(253, 253, 253, 0.692);
+}
+h2 {
+  margin: 30px 0;
+  font-size: 28px;
+}
 
-} */
-
-/* .profile {
-  width: 200px;
-  height: 150px;
-  border-radius: 50px;
-  background-image: url('/public/assets/profileWanderRosa.jpg');
-  background-size: cover;
-  background-position: 20px -80px;
-  background-color: #15134b; 
-  border: 2px solid #c53497dd;
-
-} */
