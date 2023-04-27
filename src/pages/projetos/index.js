@@ -3,10 +3,11 @@ import "./projetos.css";
 
 const Projetos = () => {
   return (  
-    <section id='Projetos'>
+    <section className="secaotop limite" id='Projetos'>
       <h2>
-        Meus projetos
+        Meus Projetos
       </h2>
+      <section className="boxcardsprojeto">
       <CardProjetos
         title="Sorveteria"
         text=" Um belo layout oferecido pela DevMedia, abordando conceitos de SPA em
@@ -24,7 +25,7 @@ const Projetos = () => {
         link="https://wr-loja-de-oculos.vercel.app/"
         img="assets/oculos.png"
         imgdescription="wr-loja-de-oculos"
-      />
+      /></section>
     </section>
   );
 };

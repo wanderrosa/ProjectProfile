@@ -1,58 +1,41 @@
 .boxcard {
   width: 600px;
-  height: 400px;
+  height: 45npm ru0px;
   background-color: rgb(236, 240, 243);
-  border-radius: 30px;
+  border-radius: 10px;
 }
 .navbar {
   width: 100%;
   border-bottom: 2px solid;
 }
-
-/* .boxcard img {
-  width: 100%;
+h3{
+  font-size: 25px;
+  padding: 10px;
+}
+.cardinfo{
   height: 100%;
-  padding: 2px;
-}
-.boxcard a {
-  width: 400px;
-  height: 290px;
-  margin: 0 auto;
-}
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 
-.boxcard p {
-  margin: 0 auto;
-  text-align: center;
+}
+.cardtext{
+  width: 300px;
+  height: 100%;
+
+}
+.cardtext p{
+  margin-top: 30px;
+  text-align: justify;
   font-size: 18px;
-  line-height: 22px;
-} */
-/* .boxcard img:hover {
-  border: 2px solid rgb(255, 0, 106); */
-/* }
-@media screen and (max-width: 440px) {
-  .boxcard {
-    flex-flow: column nowrap;
-    width: 100%;
-  }
-  .boxcard p {
-    font-size: 14px;
-    line-height: 22px;
-    width: 100%;
-  }
-
-
-  .boxcard a {
-    width: 300px;
-    height: 250px;
-  }
-} */
-/* @media (min-width: 441px) and (max-width: 800px) {
-  .boxcard {
-    flex-flow: column nowrap;
-  }
-  .boxcard a {
-    width: calc(100% - 40px);
-    height: 500px;
-    margin: 0 auto;
-  }
-} */
+  line-height: 28px;
+}
+.boxcard img{
+  width: 96px;
+  height: 96px;
+  margin-top: 20px;
+}
+.boxcard h3{
+  text-transform: uppercase;
+  font-size: 18px;
+}

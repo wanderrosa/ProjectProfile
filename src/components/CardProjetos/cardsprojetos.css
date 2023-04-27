@@ -18,8 +18,33 @@ img {
   margin: 0 auto;
   border: 1px dashed black;
   border-radius: 22px;
+  margin-bottom: 40px;
+  background-color: rgba(127, 225, 255, 0.685);
 }
 .projetotexto {
   margin: 0 10px;
   padding: 10px;
+  height: 100%;
+}
+
+@media screen and (max-width: 1130px){
+  .boxprojeto{
+    width: 440px;
+    height: 500px;
+    flex-flow: column;
+  }
+}
+@media screen and (max-width: 949px){
+  .boxprojeto{
+   width: 280px;
+   height: 380px;
+   margin: 40px 20px;
+   
+
+  }
+  .projetotexto{
+    max-width: 260px;
+    height: 150px;
+    margin-bottom: 40px;
+  }
 }

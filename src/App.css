@@ -6,12 +6,12 @@
   box-sizing: border-box;
 
 }
-.limite{
+.app{
   width: 100%;
-  margin: 0 auto;
-  min-width: 350px;
- /* background-color: rgb(156, 227, 240); */
-
+  
+}
+.limite {
+  min-width: 324px;
 }
 
 

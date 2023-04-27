@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import "./top.css";
 export function Topo() {
   const [navebar, setNaveBar] = useState("esconde");
@@ -11,21 +10,24 @@ export function Topo() {
     }
   };
   return (
-    <section id='Home' className="limite">
+    <section className="limite">
       <div className="topo">
+        
         <nav>
           <a href="#Home" className="link">
             Home
           </a>
-          <a href='#Habilidade'className="link" a>
+          <a href="#Habilidade" className="link" a>
             Habilidades
           </a>
           <a href="#Projetos" className="link" id="projetos">
-          Meus Projetos
-          </a>
+            Meus Projetos
+          </a><button>
+            <div className="trasso1"></div>
+            <div className="trasso1"></div>
+            <div className="trasso1"></div>
+          </button>
         </nav>
-        <button onClick={muda}>
-        </button>
       </div>
     </section>
   );
