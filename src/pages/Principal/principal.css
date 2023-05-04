@@ -43,9 +43,10 @@ width: 300px;
 }
 .boxtexto{
   height: 330px;
+  margin: 0 40px;
 }
 .boximgprofile {
-  width: 100%;
+  max-width: 500px;
  
   flex-direction: column;
   justify-content: flex-start;
@@ -95,7 +96,7 @@ h2 {
   font-size: 28px;
 }
 
-@media screen and (min-width: 960px) and (max-width: 1130px){
+@media screen and (min-width: 960px) and (max-width: 1300px){
   .boxprofile{
     width:100%;
   }

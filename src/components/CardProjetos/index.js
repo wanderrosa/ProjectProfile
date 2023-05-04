@@ -10,7 +10,7 @@ const CardProjetos = (props) => {
         </div>
         <a href={props.link} rel="noreferrer" target="_blank">
           <img src={props.img} alt={props.imgdescription} />
-        </a>{" "}
+        </a>
       </div>
 
   );

@@ -6,13 +6,17 @@
 }
 .boxcardsprojeto{
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
 
 }
-@media screen and (max-width:590px){
+@media screen and (max-width:1130px) {
+  .boxcardsprojeto{flex-flow: row nowrap ;}
+}
+@media screen and (max-width:710px){
   .boxcardsprojeto{
     flex-flow: column nowrap;
   }
